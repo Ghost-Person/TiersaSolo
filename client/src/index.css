@@ -3,9 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,55 +12,116 @@
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
+  font-weight: 550;
+  font-size: 16px;
+  color: rgb(27, 99, 193) 42, 193;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: rgb(120, 22, 185);
 }
+
+p {
+  text-align: center;
+}
+
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  padding-left: 100px;
   min-width: 320px;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  background-color: rgb(193, 206, 221);
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  margin: 5px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.wrapper {
+  padding-left: 200px;
+}
+
+.review-table {
+  font-size: 3.2em;
+  text-align: left ;
+  margin-bottom: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 90px;
+}
+
+.wrapper2 {
+  display: flex;
+}
+
+.wrapper3 {
+  display: flex;
+  place-items: center;
+}
+
+.wrapper4 {
+  display: flex;
+  justify-content: baseline;
+  
+}
+
+.john {
+  max-width: 100%;
+}
+
+.deadpool {
+  max-width: 100%;
+}
+
+.flash {
+  max-width: 100%;
+}
+
+.family {
+  max-width: 50%;
+}
+
+.steve {
+  max-width: 20%;
+  float: right;
+  
+}
+
+.new-review {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.wrapper5 {
+  place-items: center;
+  margin-top: 70px;
+  padding-left: 350px;
+  
+
+}
+
+.wrapper6 {
+  margin-top: 50px;
+  padding-right: 300px;
+  padding-left: 200px;
+}
+
+.about-us {
+  text-align: left;
+  font-size: 50px;
+}
+
+.view-one {
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.new-form {
+  border: 1px;
+  border-style: solid;
+  border-color: white;
 }

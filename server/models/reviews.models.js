@@ -8,7 +8,9 @@ const ReviewsSchema = new mongoose.Schema({
     },
     rating: {
         type: Number,
-        required: [true, 'Please rate your product or service 1-5']
+        required: [true, 'Please rate your product or service 1-5'],
+        min: [1],
+        max: [5],
     },
     story: {
         type: String
